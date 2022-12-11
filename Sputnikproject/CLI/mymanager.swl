@@ -1,0 +1,19 @@
+create database gym;
+
+
+create table batches (
+	batchId int primary key auto_increment,
+	name    varchar(256)
+);
+
+
+create table participant (
+	pid int primary key auto_increment,
+	name varchar(256),
+	phone varchar(256),
+	email varchar(256),
+	age int,
+	batchId int,
+	constraint batch_id_fk foreign key (batchId) 
+	references batches(batchId) on delete cascade
+);

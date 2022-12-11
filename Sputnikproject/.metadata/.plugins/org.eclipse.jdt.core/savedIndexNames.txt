@@ -1,0 +1,8 @@
+INDEX VERSION 1.131+/Users/akshatakanaje/Sputnikproject/.metadata/.plugins/org.eclipse.jdt.core
+883492500.index
+2809484310.index
+4161120976.index
+1969884828.index
+1865797976.index
+261078185.index
+3175484697.index
